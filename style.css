@@ -8,11 +8,12 @@ body {
 }
 .page-container {
   display: grid;
-  grid-template-rows: 500px 2500px 300px;
+  grid-template-rows: 500px 2200px 300px;
 }
 .box1 {
   display: grid;
-  grid-template-rows: 20px 200px 200px;
+  grid-template-rows: 20px 400px;
+  height: 406px;
   padding: 30px;
   padding-bottom: 0;
   background-color: #3de07e;
@@ -22,9 +23,6 @@ body {
   grid-column: 1;
   grid-row-gap: 2px;
   grid-template-columns: 2px 2px 2px;
-}
-.ninjaicon {
-  margin-top: 67px;
 }
 
 .line {
@@ -54,18 +52,17 @@ body {
   display: grid;
   grid-column: 2;
   grid-row: 2;
-  grid-gap: 52px;
-  grid-template-rows: 200px 200px 200px;
+  grid-gap: 15px;
+  grid-template-rows: 200px 200px;
 }
-.navc {
-  width: 100%;
-}
+
 .navc .n1 {
   grid-row: 1;
   font-family: roboto;
 }
 .ninjaicon {
   margin-inline: 90px;
+  margin-top: 40px;
 }
 
 .navc .n2 {
@@ -87,11 +84,7 @@ h1 {
   grid-template-columns: 15% 70% 15%;
   grid-template-rows: 600px 600px 600px;
 }
-.box2-1 {
-  display: grid;
-  grid-row: 1;
-  margin-top: 80px;
-}
+
 button {
   background-color: #e83f57;
   display: flex;
@@ -108,7 +101,6 @@ button {
   white-space: nowrap;
   font-weight: 600;
   color: whitesmoke;
-  margin-bottom: 100px;
 }
 
 .box2-1,
@@ -117,9 +109,15 @@ button {
   display: grid;
   grid-column: 2;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 600px 600px 600px;
+  grid-template-rows: 500px 500px 500px;
   grid-column-gap: 15px;
-  margin-inline: 50px;
+  grid-row-gap: 0px;
+  margin-inline: 60px;
+}
+.box2-1 {
+  display: grid;
+  grid-row: 1;
+  margin-top: 20px;
 }
 .box2-3 {
   grid-row: 3;
@@ -129,12 +127,7 @@ button {
   grid-row: 2;
   grid-column: 2;
 }
-.post1 {
-  display: grid;
-  grid-template-rows: 300px 50px 100px 100px;
-  max-width: 280px;
-  overflow-x: hidden;
-}
+
 .p1 .image {
   display: grid;
   grid-row: 1;
@@ -147,12 +140,12 @@ button {
   display: grid;
   grid-row: 4;
 }
-
-.post2 {
+.post1,
+.post2,
+.post3 {
   display: grid;
-  grid-template-rows: 300px 50px 100px 100px;
+  grid-template-rows: 300px 50px 100px 50px;
   max-width: 280px;
-  margin-top: 50px;
   overflow-x: hidden;
 }
 .p21 .image {
@@ -166,16 +159,8 @@ button {
 .p21 button {
   display: grid;
   grid-row: 4;
-  margin-bottom: 50px;
 }
 
-.post3 {
-  display: grid;
-  grid-template-rows: 300px 50px 100px 100px;
-  max-width: 280px;
-  overflow-x: hidden;
-  margin-top: 50px;
-}
 .p31 .image {
   display: grid;
   grid-row: 1;
