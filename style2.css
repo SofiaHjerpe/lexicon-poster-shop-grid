@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.page-container {
+  display: grid;
+  grid-template-rows: 200px 1000px 200px;
+  grid-template-columns: 300px 1000px 200px;
+}
+.box1 {
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  grid-template-rows: 20px 300px;
+  height: 300px;
+  padding: 20px;
+  width: 700px;
+  padding-bottom: 0;
+  background-color: #3de07e;
+}
+.box1-1 {
+  display: grid;
+  grid-column: 1;
+  grid-row-gap: 2px;
+  grid-template-columns: 2px 2px 2px;
+}
+
+.line {
+  content: "";
+  color: #000;
+  margin-bottom: 0;
+  width: 20px;
+  border-top: 1.5px solid #000;
+}
+.l1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+.l2 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.l3 {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+.l4 {
+  grid-column: 1 / span 2;
+  grid-row: 4;
+}
+.box1-2 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  grid-gap: 24px;
+  grid-template-rows: 150px 150px;
+}
+
+.navc .n1 {
+  grid-row: 1;
+  font-family: roboto;
+}
+.ninjaicon {
+  margin-inline: 90px;
+  width: 180px;
+}
+
+.navc .n2 {
+  grid-row: 3;
+  font-family: roboto;
+}
+
+h1 {
+  font-size: 60px;
+  white-space: nowrap;
+  margin-inline: 50px 0;
+  align-self: center;
+  margin-top: 15px;
+  font-family: Roboto;
+  color: #242424;
+}
