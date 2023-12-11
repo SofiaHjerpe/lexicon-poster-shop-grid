@@ -8,7 +8,7 @@ body {
 }
 .page-container {
   display: grid;
-  grid-template-rows: 500px 2200px 300px;
+  grid-template-rows: 500px 1600px 300px;
 }
 .box1 {
   display: grid;
@@ -82,7 +82,7 @@ h1 {
   display: grid;
   grid-row: 2;
   grid-template-columns: 15% 70% 15%;
-  grid-template-rows: 600px 600px 600px;
+  grid-template-rows: 570px 550px 570px 700px;
 }
 
 button {
@@ -109,7 +109,6 @@ button {
   display: grid;
   grid-column: 2;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 500px 500px 500px;
   grid-column-gap: 15px;
   grid-row-gap: 0px;
   margin-inline: 60px;
@@ -184,19 +183,24 @@ p {
   font-family: roboto;
   font-size: 14px;
 }
-.cards {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-bottom: 80px;
+.box2-4 {
+  display: grid;
+  grid-row: 4;
+  grid-gap: 15px;
+  max-width: 500px;
+  max-height: 600px;
+  grid-template-columns: 1px 435px 435px 400px;
 }
 .card1 {
+  grid-column: 2;
+
   width: 435px;
   background-color: #fff;
 }
 
 .card2 {
-  width: 435px;
+  grid-column: 3;
+  max-width: 435px;
   background-color: #fff;
 }
 .card1 > h2,
@@ -229,37 +233,52 @@ p {
   max-height: 280px;
 }
 .boxImg {
-  max-width: 100%;
+  max-width: 435px;
 }
 
 .box3 {
-  display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 20%, 20%, 20%, 20%, 20%;
+  grid-template-rows: 1px 62px 40px 40px;
   background-color: #333;
   color: whitesmoke;
   height: 250px;
-  justify-content: space-between;
 }
-.navcontent {
+.box3-1,
+.box3-2,
+.box3-3 {
   color: #fff;
   margin-top: 40px;
-  align-self: flex-start;
 }
-.navcontent:nth-child(1) {
-  margin-inline: 290px 0;
-}
-.navcontent:nth-child(3) {
-  margin-inline: 0px 400px;
-}
-.navcontent h2 {
+
+.box3-1 h2,
+.box3-2 h2,
+.box3-3 h2 {
   font-size: 32px;
   font-family: roboto;
   margin-bottom: 15px;
 }
+.box3-1 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  margin-inline: 75px 0;
+}
+.box3-2 {
+  display: grid;
+  grid-column: 3;
+  grid-row: 2;
+}
+.box3-3 {
+  display: grid;
+  grid-column: 4;
+  grid-row: 2;
+  margin-inline: 0 180px;
+}
 ul {
   list-style: none;
 }
-.content-list {
+.t1 .t2 {
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -267,12 +286,13 @@ ul {
   text-decoration: none;
 }
 
-.content-list > li {
+.t1 > li,
+.t2 > li {
   font-size: 14px;
   color: #ffffffd0;
   font-family: roboto;
 }
-.social-media {
+.t3 {
   display: flex;
   gap: 15px;
 }
