@@ -10,7 +10,7 @@ body {
 .page-container {
   display: grid;
   grid-template-rows: 200px 1150px 220px;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 340px 1000px 400px;
 }
 .box1 {
   display: grid;
@@ -80,7 +80,7 @@ h1 {
   white-space: nowrap;
   margin-inline: 50px 0;
   align-self: center;
-  margin-top: 15px;
+  margin-top: 35px;
   font-family: Roboto;
   color: #242424;
 }
@@ -103,6 +103,7 @@ button {
   width: 120px;
   font-size: 10px;
   margin: 16px;
+  margin-top: 0;
   padding-inline: 5%;
   white-space: nowrap;
   font-weight: 600;
