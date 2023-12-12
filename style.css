@@ -87,9 +87,6 @@ h1 {
 
 button {
   background-color: #e83f57;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-color: transparent;
   text-align: center;
   border-radius: 4px;
@@ -97,7 +94,7 @@ button {
   height: 25px;
   width: 120px;
   font-size: 10px;
-  padding-inline: 25px 25px;
+  padding-inline: 5%;
   white-space: nowrap;
   font-weight: 600;
   color: whitesmoke;
@@ -135,10 +132,7 @@ button {
   display: grid;
   grid-row: 2;
 }
-.p1 button {
-  display: grid;
-  grid-row: 4;
-}
+
 .post1,
 .post2,
 .post3 {
@@ -155,10 +149,6 @@ button {
   display: grid;
   grid-row: 2;
 }
-.p21 button {
-  display: grid;
-  grid-row: 4;
-}
 
 .p31 .image {
   display: grid;
@@ -167,10 +157,6 @@ button {
 .p31 h2 {
   display: grid;
   grid-row: 2;
-}
-.p31 button {
-  display: grid;
-  grid-row: 4;
 }
 
 h2 {
@@ -224,7 +210,6 @@ p {
   margin: 16px;
   height: 40px;
   font-size: 11px;
-  padding-inline: 55px 55px;
   width: 140px;
 }
 

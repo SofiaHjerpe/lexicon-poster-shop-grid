@@ -93,22 +93,20 @@ h1 {
   grid-template-columns: 15% 70% 15%;
   grid-template-rows: 70% 40%;
 }
-
 button {
   background-color: #e83f57;
   border-color: transparent;
   text-align: center;
   border-radius: 4px;
   font-family: roboto;
+  height: 25px;
   width: 120px;
   font-size: 10px;
-  padding-inline: 10px;
+  margin: 16px;
+  padding-inline: 5%;
   white-space: nowrap;
   font-weight: 600;
   color: whitesmoke;
-  margin: 16px;
-  height: 35px;
-  font-size: 10px;
 }
 
 a {
